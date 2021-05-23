@@ -15,6 +15,7 @@ import android.content.DialogInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.widget.Toast;
+import com.onesignal.OneSignal;
 
 public class MainActivity extends Activity {
     WebView webView;
@@ -26,11 +27,21 @@ public class MainActivity extends Activity {
     //AnsNew User-Agent
     String MyUA = "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19" +
             "(KHTML, like Gecko; googleweblight) Chrome/38.0.1025.166 Mobile Safari/535.19";
+    //OneSignal API
+    private static final String ONESIGNAL_APP_ID = "1f032a19-8d98-4e32-9795-2273d09a4a9e";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Enable verbose OneSignal logging to debug issues if needed.
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
+
+        // OneSignal Initialization
+        OneSignal.initWithContext(this);
+        OneSignal.setAppId(ONESIGNAL_APP_ID);
 
         //load custom User-agent string
         webView = (WebView) findViewById(R.id.webView);

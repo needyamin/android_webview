@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "73565811992",
+    "project_id": "ansnew007",
+    "storage_bucket": "ansnew007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73565811992:android:a1205980abfc1989ba9a6d",
+        "android_client_info": {
+          "package_name": "com.needyamin.ansnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73565811992-1la47hcoj6qgndj916d2lt20rnttaeoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALh4jDH5Ez6HXj4n-fgqhAT5Yfuf3Cwpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73565811992-1la47hcoj6qgndj916d2lt20rnttaeoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
