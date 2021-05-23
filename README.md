@@ -1,9 +1,6 @@
 # android_webview
 Advance Android WebView
 
-# android_webview
-Advance Android WebView
-
 This is Android WebView apps with android push notification systems..
 #####
 * No Internet Message Displayed
