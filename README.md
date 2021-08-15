@@ -6,14 +6,17 @@ Advance Android WebView
 ![Ansnew_no_internet](https://user-images.githubusercontent.com/16277392/119679816-7c838a80-be62-11eb-83b3-da442aab2cae.jpg)
 
 
-This is Android WebView apps with "no internet message" connectivity checking systems..
-#####
-* No Internet Message Displayed
-* Custom User-Agent Added
-* Api 17 to 30 targeted
-* Simply code
+# This is Android WebView apps with "no internet message" connectivity checking systems..
 
-You are always welcome to use this source code anywhere on the internet.
+> No Internet Message Displayed
+
+> Custom User-Agent Added
+
+> Api 17 to 30 targeted
+
+> Simply code
+
+> You are always welcome to use this source code anywhere on the internet.
 
 # Demo Video: https://www.youtube.com/watch?v=K0rbtKDtDmA
 # Support Website: https://app.ansnew.com/
